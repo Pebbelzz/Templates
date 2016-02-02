@@ -1,3 +1,6 @@
+
+//function for Google Map:
+//directions: https://developers.google.com/maps/tutorials/fundamentals/adding-a-google-map
 function initMap(){
 	  var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
