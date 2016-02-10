@@ -38,8 +38,3 @@ $("document").ready(function(){
 		$(this).css("height", "30px");
 	});
 });
-
-$("document").ready(function(){
-	//toggle Class to show details of 
-
-});
