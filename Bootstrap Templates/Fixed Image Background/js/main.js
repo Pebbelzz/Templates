@@ -8,3 +8,30 @@ function initMap(){
           zoom: 6
         });
 }
+
+//Scroll function from arrow and NavBar to diff Section
+$("document").ready(function(){
+	//to the SecondSection
+	$("#linkFromTop, #navFromTop").click(function(){
+		$("html, body").animate({
+			scrollTop: $("#secondSection").offset().top
+		}, 1000);
+	});
+	//to the About Section
+	$("#navToAbout").click(function(){
+		$("html, body").animate({
+			scrollTop: $("#aboutMe").offset().top
+		}, 1500);
+	});
+
+	//to the Top/Home Section
+	$("#homeFromTop").click(function(){
+		$("html, body").animate({
+			scrollTop: $("#mainInfo").offset().top
+		}, 1500);
+	});	
+
+});
+
+
+
