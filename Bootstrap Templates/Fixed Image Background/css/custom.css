@@ -105,6 +105,7 @@ nav{
 .projectImg{
 	height: 200px;
 	width: 250px;
+	overflow: hidden;
 }
 
 .workBlock{
@@ -135,7 +136,7 @@ nav{
 	background-image: url(http://placehold.it/250x200);
 }
 
-.projectImg > p{
+.show-title{
 	color: #FFFFFF;
 	background: black;
 	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.3));
@@ -157,7 +158,7 @@ nav{
 	-o-transition: height .5s;
 }
 
-.projectImg > p:hover{
+.show-text{
 	height: 80px;
 }
 

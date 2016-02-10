@@ -7,11 +7,11 @@ function initMap(){
           center: {lat: 44.540, lng: -78.546},
           zoom: 6
         });
-}
+};
 
-//Scroll function from arrow and NavBar to diff Section
+
 $("document").ready(function(){
-	//to the SecondSection
+	//Scroll to the SecondSection
 	$("#linkFromTop, #navFromTop").click(function(){
 		$("html, body").animate({
 			scrollTop: $("#secondSection").offset().top
@@ -30,8 +30,12 @@ $("document").ready(function(){
 			scrollTop: $("#mainInfo").offset().top
 		}, 1500);
 	});	
-
 });
 
-
-
+$("document").ready(function(){
+	//Scroll to the SecondSection
+	$(".show-title").hover(function(){
+		console.log("hover");
+		$(this).toggleClass(".show-text");
+	});
+});
