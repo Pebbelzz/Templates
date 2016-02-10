@@ -30,12 +30,16 @@ $("document").ready(function(){
 			scrollTop: $("#mainInfo").offset().top
 		}, 1500);
 	});	
+
+	$(".show-title").mouseenter(function(){
+		$(this).css("height", "80px");
+		});
+	$(".show-title").mouseleave(function(){
+		$(this).css("height", "30px");
+	});
 });
 
 $("document").ready(function(){
-	//Scroll to the SecondSection
-	$(".show-title").hover(function(){
-		console.log("hover");
-		$(this).toggleClass(".show-text");
-	});
+	//toggle Class to show details of 
+
 });

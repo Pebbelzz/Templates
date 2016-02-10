@@ -102,10 +102,12 @@ nav{
 	text-decoration: none;
 }
 
+.workBlock{
+	overflow: hidden;
+}
 .projectImg{
 	height: 200px;
 	width: 250px;
-	overflow: hidden;
 }
 
 .workBlock{
@@ -156,10 +158,6 @@ nav{
 	-moz-transition: height .5s;
 	-ms-transition: height .5s;
 	-o-transition: height .5s;
-}
-
-.show-text{
-	height: 80px;
 }
 
 
