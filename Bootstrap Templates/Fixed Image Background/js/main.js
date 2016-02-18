@@ -12,20 +12,23 @@ function initMap(){
 
 $("document").ready(function(){
 	//Scroll to the SecondSection
-	$("#linkFromTop, #navFromTop").click(function(){
+	$("#linkFromTop, #navFromTop").click(function(e){
+		e.preventDefault();
 		$("html, body").animate({
 			scrollTop: $("#secondSection").offset().top
 		}, 1000);
 	});
 	//to the About Section
-	$("#navToAbout").click(function(){
+	$("#navToAbout").click(function(e){
+		e.preventDefault();
 		$("html, body").animate({
 			scrollTop: $("#aboutMe").offset().top
 		}, 1500);
 	});
 
 	//to the Top/Home Section
-	$("#homeFromTop").click(function(){
+	$("#homeFromTop").click(function(e){
+		e.preventDefault();
 		$("html, body").animate({
 			scrollTop: $("#mainInfo").offset().top
 		}, 1500);
