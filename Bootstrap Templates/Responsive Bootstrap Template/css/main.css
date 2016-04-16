@@ -1,0 +1,29 @@
+.navigation{
+  height: 250px;
+}
+
+#imageHolder{
+  margin-top: 40px;
+}
+
+#nav-image{
+  background-color: #cccccc;
+  height: 90px;
+  width: 90px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.navArea{
+  margin-top: 45px;
+}
+
+.navArea > div{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.carousel-image{
+  margin: 0 auto;
+}
