@@ -27,3 +27,18 @@
 .carousel-image{
   margin: 0 auto;
 }
+
+.product-area, .product-row{
+  padding: 35px 0 25px 0;
+}
+
+.product-pic > img{
+  margin: 0 auto;
+  display: inherit;
+}
+
+.product-title{
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 20px;
+}
