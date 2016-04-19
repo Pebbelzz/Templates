@@ -6,6 +6,11 @@ body{
   height: 250px;
 }
 
+.navArea > div > a{
+  text-decoration: none;
+  color: black;
+}
+
 #imageHolder{
   margin-top: 40px;
 }
